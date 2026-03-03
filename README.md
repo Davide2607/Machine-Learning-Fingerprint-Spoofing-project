@@ -53,7 +53,7 @@ Main files:
 Data files currently present in the repository root:
 - `trainData.txt`
 - `evalData.txt`
-
+---
 
 ## 📈 Evaluation
 
