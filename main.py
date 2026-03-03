@@ -611,7 +611,6 @@ _, SM1=logpdf_GMM(DTE,gmm_class1)
 
 scores_GMM = SM1 - SM0 
 #bayes_error_plot_comparison(scores_QUAD_LOG_REG, scores_SVM,scores_GMM, LTE,"Bayes error plot comparison best models")
-print("JUVE MERDA")
 
 #----------------------------------------------------------
 # KFOLD + calibration
@@ -1148,4 +1147,5 @@ for version in version_target:
               results.add_row([2**double0,2**double1,version,np.round(minDCF,3),np.round(actDCF,3)])
 
 print(results)
+
 """
